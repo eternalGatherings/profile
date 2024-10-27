@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #23252c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: Open Sans, Inter, Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
+}
+
+.container {
+    background-color: #1a1b21;
+    width: 95vw;
+    height: 90vh;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-pic {
+    background-image: url('../images/Sachi-2.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-details {
+    width: 65%;
+    height: 100%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-1, .footer-2 {
+    background-color: #161619;
+    height: 10%;
+    width: 100%;
+    border-bottom-right-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer-1 a, .footer-2 a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-1 svg, .footer-2 svg {
+    height: 60%;
+}
+
+.footer-1 {
+    display: flex;
+}
+
+.footer-2 {
+    display: none;
+}
+
+
+/* Right section */
+
+.name-designation {
+    width: 100%;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: auto 0;
+}
+
+.about-other {
+    width: 75%;
+    color: #fff;
+    
+    margin: auto 0;
+    line-height: 1.5;
+}
+
+.name, .designation, .website {
+    display: block;
+}
+
+.name {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.designation {
+    color: #feb561;
+    font-size: 18px;
+}
+
+.website {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.buttons {
+    width: 60%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.buttons button {
+    font-size: 18px;
+    width: 30%;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+}
+
+.email-button {
+    padding: 0 40px;
+    background-color: #fff;
+}
+
+.linkedin-button {
+    padding: 0 30px;
+    background-color: #5093E2;
+    color: #fff;
+}
+
+.buttons button img {
+    width: 20px;
+}
+
+.about .header {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.about .paragraph {
+    font-size: 15px;
+    font-weight: 100;
+    text-align: justify;
+}
+
+@media (min-width: 300px) and (max-width: 900px) {
+    body {
+        height: 95vh;
+    }
+
+    .container {
+        height: 88vh;
+        width: 78vw;
+        flex-direction: column;
+    }
+
+    .profile-pic {
+        background-image: url('../images/Sachi-1.jpg');
+        background-size: cover;
+        width: 100%;
+        height: 50%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+
+    .profile-details {
+        width: 100%;
+    }
+
+    .name {
+        font-size: 30px;
+    }
+
+    .designation {
+        font-size: 12px;
+    }
+
+    .website {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    .buttons {
+        margin-top: 15px;
+        width: 80%;
+    }
+
+    .buttons button {
+        font-size: 13px;
+        height: 35px;
+        justify-content: space-between;
+        width: 45%;
+    }
+
+    .email-button {
+        padding: 0 25px;
+    }
+
+    .linkedin-button {
+        padding: 0 18px;
+    }
+
+    .about-other {
+        width: 85%;
+    }
+    .about .header {
+        font-size: 20px;
+    }
+
+    .about .paragraph {
+        font-size: 10px;
+        font-weight: 100;
+    }
+
+    .footer-2 {
+        border-bottom-left-radius: 25px;
+    }
+
+    .footer-2 {
+        display: flex;
+        height: 10%;
+    }
+    
+    .footer-1 {
+        display: none;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1080px) {
+    body {
+        height: 91vh;
+    }
+
+    .container {
+        height: 88vh;
+        width: 78vw;
+        flex-direction: column;
+    }
+
+    .profile-pic {
+        background-image: url('../images/Sachi-1.jpg');
+        background-size: cover;
+        width: 100%;
+        height: 80%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+
+    .profile-details {
+        width: 100%;
+    }
+
+    .name {
+        font-size: 55px;
+    }
+
+    .designation {
+        font-size: 20px;
+    }
+
+    .website {
+        font-size: 20px;
+        margin-top: 25px;
+    }
+
+    .buttons {
+        margin-top: 12px;
+        width: 80%;
+    }
+
+    .buttons button {
+        font-size: 13px;
+        height: 35px;
+        justify-content: space-between;
+        width: 30%;
+    }
+
+    .email-button {
+        padding: 0 35px;
+    }
+
+    .linkedin-button {
+        padding: 0 28px;
+    }
+
+    .about-other {
+        width: 85%;
+    }
+    .about .header {
+        font-size: 30px;
+    }
+
+    .about .paragraph {
+        font-size: 12px;
+        font-weight: 100;
+    }
+
+    .footer-2 {
+        border-bottom-left-radius: 25px;
+    }
+
+    .footer-2 {
+        display: flex;
+        height: 12%;
+    }
+    
+    .footer-1 {
+        display: none;
+    }
+}
