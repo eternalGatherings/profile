@@ -1,4 +1,5 @@
 import "./App.css";
+import "./Animate.css";
 import ProfilePic from "./components/ProfilePic";
 import ProfileDetails from "./components/ProfileDetails";
 
