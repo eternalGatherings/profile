@@ -6,7 +6,7 @@ function Buttons() {
           src="https://raw.githubusercontent.com/eternalGatherings/personal-db/refs/heads/main/images/email.svg"
           alt="email"
         />
-        <a href="mailto:write2sachinkn@outlook.com">Email</a>
+        <a href="mailto:contactme@sachinkn.in">Email</a>
       </button>
 
       <button className="linkedin-button">
