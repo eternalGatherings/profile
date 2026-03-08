@@ -173,7 +173,7 @@ body {
 
     .container {
         width: 78vw;
-        min-height: 88vh;
+        height: 88vh;
         flex-direction: column;
         overflow-y: auto;
         align-items: center;
