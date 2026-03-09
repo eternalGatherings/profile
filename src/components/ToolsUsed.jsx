@@ -23,7 +23,7 @@ function ToolsUsed() {
         </div>
 
         <div className="tool-card">
-          <h3>Testing</h3>
+          <h3>Web UI Testing</h3>
           <ul>
             {tools.testing.map((tool, index) => (
               <li key={index}>{tool}</li>

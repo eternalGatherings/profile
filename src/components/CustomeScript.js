@@ -2,13 +2,7 @@ import { useEffect } from "react";
 
 function CustomeScript() {
   useEffect(() => {
-    // const container = document.querySelector(".content-scroll");
-    const isMobile = window.innerWidth <= 700;
-
-    // choose scroll container
-    const container = document.querySelector(
-      isMobile ? ".container" : ".content-scroll"
-    );
+    const container = document.querySelector(".content-scroll");
     if (!container) return;
 
     let interval;
