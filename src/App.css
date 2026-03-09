@@ -169,11 +169,14 @@ body {
 @media (min-width: 300px) and (max-width: 700px) {
     body {
         height: 95vh;
+        align-items: start;
+        padding-top: 20px;
+        overflow: hidden;
     }
 
     .container {
-        width: 78vw;
-        height: 85vh;
+        width: 92vw;
+        height: 88vh;
         flex-direction: column;
         overflow-y: auto;
         align-items: center;
@@ -182,16 +185,20 @@ body {
     .profile-pic {
         background-image: url('https://raw.githubusercontent.com/eternalGatherings/personal-db/refs/heads/main/images/Sachi-1.png');
         background-size: cover;
-        width: 85%;
+        width: 72%;
         min-height: 500px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         background-repeat: no-repeat;
 
-        
+
         border-top-left-radius: 25px;
         border-top-right-radius: 25px;
+
+        /* fade bottom */
+        -webkit-mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
+        mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
     }
 
     .profile-details {
@@ -201,7 +208,7 @@ body {
     }
 
     .name {
-        font-size: 30px;
+        font-size: 42px;
     }
 
     .name-designation {
@@ -219,14 +226,14 @@ body {
 
     .buttons {
         margin-top: 15px;
-        width: 80%;
+        width: 78%;
     }
 
     .buttons button {
         font-size: 13px;
         height: 35px;
         justify-content: space-between;
-        width: 45%;
+        width: 42%;
     }
 
     .email-button {
