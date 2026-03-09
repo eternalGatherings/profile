@@ -236,12 +236,13 @@ body {
 }
 
 .tools-grid {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
 .tool-card {
-    flex: 1;
+    /* flex: 1; */
     background: #23252c;
     padding: 15px;
     border-radius: 10px;
@@ -281,7 +282,7 @@ body {
         background-image: url('https://raw.githubusercontent.com/eternalGatherings/personal-db/refs/heads/main/images/Sachi-1.png');
         background-size: cover;
         width: 72%;
-        min-height: 500px;
+        min-height: 530px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -386,11 +387,15 @@ body {
     }
 
     .tools-grid {
-        overflow-x: auto;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .tool-card {
-        min-width: 120px;
+        min-width: 100px;
+    }
+
+    .tool-card h3 {
+        font-size: 15px;
     }
 
     .tool-card li {
