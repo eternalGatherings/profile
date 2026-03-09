@@ -2,6 +2,7 @@ import Buttons from "./Buttons";
 import About from "./About";
 import CareerTimeline from "./CareerTimeline";
 import ToolsUsed from "./ToolsUsed";
+import FeaturedProjects from "./FeaturedProjects";
 import Footer from "./Footer";
 
 function ProfileDetails() {
@@ -31,6 +32,7 @@ function ProfileDetails() {
         <About />
         <CareerTimeline />
         <ToolsUsed />
+        <FeaturedProjects />
       </div>
 
       <Footer />

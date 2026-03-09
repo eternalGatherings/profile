@@ -231,7 +231,7 @@ body {
 
 .tools-section {
     width: 75%;
-    margin: 60px 0;
+    margin-top: 60px;
     color: white;
 }
 
@@ -260,6 +260,50 @@ body {
 .tool-card li {
     font-size: 14px;
     margin-bottom: 5px;
+}
+
+.projects-section {
+    width: 75%;
+    margin: 60px 0;
+    color: white;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.project-card {
+    background: #23252c;
+    padding: 18px;
+    border-radius: 12px;
+}
+
+.project-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.project-icon {
+    font-size: 22px;
+}
+
+.project-card h3 {
+    color: #feb561;
+    font-size: 18px;
+}
+
+.project-card ul {
+    margin-left: 18px;
+}
+
+.project-card li {
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #ccc;
 }
 
 @media (min-width: 300px) and (max-width: 700px) {
@@ -426,6 +470,20 @@ body {
     }
 
     .timeline-section .timeline-content p {
+        font-size: 12px;
+    }
+
+    .projects-section {
+        width: 85%;
+        margin: 60px 0;
+        color: white;
+    }
+
+    .project-card h3 {
+        font-size: 15px;
+    }
+
+    .project-card li {
         font-size: 12px;
     }
 }
