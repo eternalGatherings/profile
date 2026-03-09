@@ -2,16 +2,16 @@ function About() {
   return (
     <div className="about-other animated bounceInUp">
       <div className="about">
-        <div className="header">About</div>
+        <h2 className="section-title">About</h2>
 
         <div className="paragraph">
-          I am a dedicated and results-driven software development and testing
-          professional with over five years of industry experience. I have a
-          strong technical proficiency in front-end and back-end technologies
-          including HTML, CSS, JavaScript, Java, Python and SQL, with specializations
-          in React.js, Angular.js, Node.js, Express.js, and MongoDB. My expertise
-          extends to testing frameworks such as Playwright, Mocha, Jest, Chai,
-          Selenium, TestNG, and REST Assured.
+          I am a dedicated software development and test automation professional
+          with over seven years of industry experience. My technical expertise
+          includes HTML, CSS, JavaScript, Java, SQL, and Node.js, supported by
+          modern development tools such as VS Code, Git, and GitHub. I specialize
+          in building reliable test automation solutions using frameworks like
+          Playwright, Selenium, Cucumber, Mocha, and TestNG, along with API
+          testing using Postman and REST Assured.
           <br />
           <br />
           I excel in problem-solving and committed to continuous learning and
